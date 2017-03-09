@@ -156,7 +156,7 @@ public class MediaPlayerActivity extends Activity implements OnPreparedListener,
     @Override
     public void onPrepared(MediaPlayer mp) {
         Log.d(LOG_TAG, "onPrepared");
-        mp.start();
+        mediaPlayer.start();
     }
 
     @Override
